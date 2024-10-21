@@ -1,0 +1,65 @@
+/* AuthForm.css */
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #F5F5DC; /* Adjust background color as needed */
+}
+
+.form {
+  background: #EAEACF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;/* Adjust background color as needed */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 890px; /* Adjust width as needed */
+  height: 490px;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  text-align: center;
+}
+
+input {
+  width: 40%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  width: 40%;
+  padding: 10px;
+  background: linear-gradient(to right, #D7D29D, #7E7B5C);/* Adjust button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9; /* Darker green on hover */
+}
+
+.link {
+  color: #4CAF50; /* Adjust link color */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: #3e8e41; /* Darker green on hover */
+}
+.google{
+  margin-top: 20px;
+  margin: 20px;
+}

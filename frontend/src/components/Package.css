@@ -1,0 +1,46 @@
+/* Package.css */
+.package {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    width: 290px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin: 20px; /* Add margin for spacing between packages */
+}
+
+.package:hover {
+    box-shadow: 0 0 20px 10px rgba(86, 86, 86, 0.8);
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0; /* Space between list items */
+}
+
+button {
+    background-color: #FFA500; /* Orange color for button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff8c00; /* Darker orange on hover */
+}

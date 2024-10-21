@@ -1,0 +1,34 @@
+/* Service.css */
+.services {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 20px;
+    
+}
+
+.service-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 4px solid #d9c7b7; /* Beige color to match the caption background */
+}
+
+.caption {
+    background-color: #d9c7b7; /* Beige color */
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

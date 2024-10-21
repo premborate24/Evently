@@ -1,0 +1,35 @@
+.photo-gallery-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .gallery-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .slider {
+    height: 500px; /* This is the height to display images properly */
+    width: 100%;   /* Full width for the slider */
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .slider-track {
+    display: flex;  /* Horizontal layout for the images */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-item {
+    min-width: 200px; /* Width for portrait images */
+    height: 400px; /* Set height for vertical image look */
+    margin-right: 10px; /* Space between the images */
+  }
+  
+  .slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fits without distorting */
+  }
+  

@@ -1,0 +1,86 @@
+.contact-us {
+    display: flex;
+    align-items: center;
+    background-color: #d4c5a1; /* Beige-like background */
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us__image img {
+    width: auto; /* Make the image larger */
+    height: 100px; /* Adjust the height for a rectangular look */
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .contact-us__info {
+    flex: 1;
+    padding-left: 40px;
+  }
+  
+  .contact-us__info h2 {
+    font-size: 36px; /* Increase the font size */
+    margin-bottom: 20px;
+  }
+  
+  .contact-us__links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us__links h3 {
+    font-size: 22px; /* Slightly larger heading */
+    margin-bottom: 10px;
+  }
+  
+  .contact-us__links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-us__links ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-us__links ul li a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .social-media li a:hover {
+    color: #0077b5; /* LinkedIn color */
+  }
+  
+  .contact-us__login {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .email-input {
+    padding: 12px;
+    width: 350px; /* Wider email input */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

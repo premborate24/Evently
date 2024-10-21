@@ -1,0 +1,33 @@
+.custom-button {
+    background: #3DA9FC;
+    border: none;
+    width: fit-content;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 12px; 
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(20,20 , 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+ 
+ font-family: Poppins, sans-serif;
+  text-align: center;
+  position: relative;
+  top: 32vh;
+  }
+  
+  .custom-button:hover {
+    background:rgb(0,123,255) ;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .custom-button:focus {
+    outline: none;
+  }
+  

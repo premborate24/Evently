@@ -1,0 +1,44 @@
+/* Container for the entire card */
+.service-card {
+  width: 300px;
+  background-color: #fff; /* Light beige background color */
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+  transition: transform 0.3s ease-in-out; /* Smooth transform effect on hover */
+}
+
+.service-card:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Wrapper for the image */
+.image-wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Image styling */
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Title styling */
+.card-title {
+  width: 100%;
+  background-color: #a39f74; /* Light brown color for the title section */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

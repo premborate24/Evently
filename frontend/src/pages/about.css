@@ -1,0 +1,78 @@
+.about-section {
+  padding: 50px 20px; /* Padding to create space */
+  background-color: #d4cdae;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Space between image and text */
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+  height: 80vh;
+  max-width: 1200px;
+  margin: auto;
+  background: linear-gradient(to right, #d4cdae, #a39f74);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.image1 {
+  position: relative;
+  width: 50%; /* Adjust this to change the image size */
+  height: auto;
+  object-fit: cover;
+  box-shadow: 14px 20px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.h1 {
+  font-size: 3em; /* Use relative units for responsiveness */
+  font-family: "Titillium Web", sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.text-content {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.25em; /* Use em units for responsive text size */
+  text-align: right;
+  z-index: 500;
+  max-width: 45%; /* Adjust this to change text width */
+  margin-left: auto;
+  padding: 20px;
+  background: none;
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+  
+  .h1 {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .text-content {
+    font-size: 1em;
+    padding: 15px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 2em;
+  }
+
+  .text-content {
+    font-size: 0.875em;
+    padding: 10px;
+  }
+}
